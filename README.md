@@ -18,4 +18,5 @@ This singleton lays the groundwork for easy saving and loading of the game state
 
 
 
-**NOTE: All code in this repository is owned by Ashenthorne Atelier L.L.C. and is showcased with permission and for demonstration purposes only. See LICENSE.txt for more information.**
+**All rights reserved by Ashenthorne Atelier L.L.C.. See LICENSE.txt for more information**
+
