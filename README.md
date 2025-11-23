@@ -4,7 +4,7 @@ The included samples feature three of the systems I created as part of my contra
 
 **1) CompositeSprite2D**
 
-This component is meant to behave like Godot's included AnimatedSprite2D, but adds the ability to animate a character that is split into parts, such as having separate layers for the head and body, which allows for easy implementation of character customization. It is also designed to accomodate characters facing different directions (up, down, left, and right), because the game it was created for is a top-view 2D game.
+This component is designed to solve the problem of animating character sprites that are made of multiple layers, in order to support character customization (such as separate layers for the head, hair, body, etc.). It was set up to behave just like Godot's AnimatedSprite2D as far as our animation controller code is concerned, which made it a simple drop-in replacement.
 
 
 **2) Interact System**
@@ -19,4 +19,5 @@ This singleton lays the groundwork for easy saving and loading of the game state
 
 
 **All rights reserved by Ashenthorne Atelier L.L.C.. See LICENSE.txt for more information**
+
 
