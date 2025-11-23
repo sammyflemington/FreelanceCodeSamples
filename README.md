@@ -4,7 +4,7 @@ The included samples feature three of the systems I created as part of my contra
 
 **1) CompositeSprite2D**
 
-This component is designed to solve the problem of animating character sprites that are made of multiple layers, in order to support character customization (such as separate layers for the head, hair, body, etc.). It was set up to behave just like Godot's AnimatedSprite2D as far as our animation controller code is concerned, which made it a simple drop-in replacement.
+This component is designed to solve the problem of animating character sprites that are made of multiple layers, in order to support character customization (such as separate layers for the head, hair, body, etc.). It was set up to behave just like Godot's AnimatedSprite2D as far as our animation controller code is concerned, which made it a simple drop-in replacement. It is a Tool script, which means setting up animations is extra easy because changes are immediately visible while in the editor.
 
 
 **2) Interact System**
@@ -19,5 +19,6 @@ This singleton lays the groundwork for easy saving and loading of the game state
 
 
 **All rights reserved by Ashenthorne Atelier L.L.C.. See LICENSE.txt for more information**
+
 
 
